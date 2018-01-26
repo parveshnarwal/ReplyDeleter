@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/app_bg">
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/login_btn_margin"
+        android:gravity="center"
+        android:text="@string/header_text"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#2ba7ef"
+        android:text="@string/log_in_with_twitter"
+        android:textColor="#FFF"
+        android:layout_marginBottom="@dimen/login_btn_margin"
+        android:layout_marginLeft="@dimen/btnPadding"
+        android:layout_marginRight="@dimen/btnPadding" />
+</RelativeLayout>
